@@ -1,0 +1,21 @@
+
+[package]
+name = "borsh-size"
+version = "0.0.1"
+description = "Calculate borsh serialized size"
+authors = ["Stefan Pantic"]
+repository = "https://github.com/solana-labs/solana"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh-size-derive = { path = "../borsh_size_derive" }
+
+
+[lib]
+name = "borsh_size"
+

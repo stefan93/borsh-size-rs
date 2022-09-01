@@ -1,0 +1,27 @@
+
+[package]
+name = "borsh-size-derive"
+version = "0.0.1"
+description = "Calculate borsh serialized size"
+authors = ["Stefan Pantic"]
+repository = "https://github.com/solana-labs/solana"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+proc-macro2 = "1.0.21"
+quote = "1.0.7"
+syn = { version = "1.0.41", features = ["full", "extra-traits"] }
+
+
+[lib]
+name = "borsh_size_derive"
+proc-macro = true
+
+
+[package.metadata.docs.rs]
+all-features = true

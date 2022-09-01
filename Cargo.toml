@@ -1,0 +1,15 @@
+[workspace]
+
+members = [
+    "borsh_size",
+    "borsh_size_derive"
+]
+
+[package]
+name = "borsh-size-rs"
+version = "0.0.1"
+authors = ["Stefan Pantic"]
+
+[dependencies]
+borsh-size = { path = "borsh_size" }
+borsh-size-derive = { path = "borsh_size_derive" }
