@@ -1,4 +1,5 @@
 # borsh-size-rs
+Calculate size of struct serialized with borsh
 
 ## Example
 
